@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "poppins";
+  box-sizing: border-box;
+}
+
+.bg {
+  width: 100%;
+  height: 640px;
+  background-image: url(../public/img/bg.png);
+
+  /* background-position: center; */
+}
+
+.navbar {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../public/img/header-bg.png);
+  top: 0;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  left: 100px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nav-list {
+  position: absolute;
+  left: 210px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: 15%;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 50px 50px;
+}
+
+.nav-list li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  color: #ffffff;
+  text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+}
+
+.bitcoin {
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  width: 20%;
+  height: 40%;
+}
+
+.block {
+  font-family: "Montserrat";
+  position: absolute;
+  font-style: normal;
+  font-weight: bolder;
+  font-stretch: expanded;
+  /* line-height: 69px; */
+  left: 100px;
+  bottom: 250px;
+  color: #ffffff;
+}
+
+.button {
+  font-family: "Poppins";
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 24px;
+  position: absolute;
+  top: 220px;
+  left: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 18%;
+  position: absolute;
+  bottom: 0px;
+  background-image: url(../public/img/footer.png);
+}
+
+.coonect {
+  width: 80%;
+  left: 100px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.icon {
+  position: absolute;
+  right: 0px;
+}
+
+.icon ul {
+  list-style-type: none;
+  padding: 110px 10px;
+}
+
+.icon ul li {
+  padding: 15px 0;
+}
+
+.package {
+  padding-left: 50px;
+  height: 12%;
+  width: 12%;
+}
+
+.box {
+  padding: 15px 20px;
+}
+.stepper {
+  padding: 50px 46px;
+}
