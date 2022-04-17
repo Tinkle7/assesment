@@ -65,28 +65,20 @@ function App() {
         </div>
 
         <div className="block">
+          <h1>MERKLABS BLOCKCHAINDEVELOPMENT</h1>
           <h1>
-            <p>MERKLABS BLOCKCHAINDEVELOPMENT</p>
-            <p>
-              DEVELOPMENT AND
-              <img src="/img/package.png" className="package"></img>
-            </p>
-
-            <p>SECURITY SOLUTIONS</p>
+            DEVELOPMENT AND
+            <img src="/img/package.png" className="package"></img>
           </h1>
-          <h3>
-            <p>We provide blockchain development services and also assure </p>
-            <p>you comprehensive security in blockchain developmen</p>
-          </h3>
+          <h1>SECURITY SOLUTIONS</h1>
+          <h3>We provide blockchain development services and also assure </h3>
+          <h3>you comprehensive security in blockchain developmen</h3>
           <button className="button">Explore More</button>
         </div>
         <div className="footer">
           <img src="/img/coonect.png" className="coonect"></img>
         </div>
       </div>
-      {/* <div className="rect">
-        <img src="/img/Rectangle 1.png" className="rectangle"></img>
-      </div> */}
     </body>
   );
 }
